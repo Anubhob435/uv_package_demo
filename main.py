@@ -1,9 +1,8 @@
-# /// script
-# requires-python = ">=3.12"
-# dependencies = []
-# ///
-
-import sys
 from rich import print
 
-print(sys.version)
+def main():
+    print("Hello from uv-package-demo!")
+
+
+if __name__ == "__main__":
+    main()
